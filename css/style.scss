@@ -12,10 +12,18 @@
             height: 96px;
         }
         .cart{
-            a{display: inline-flex;}
+            a{
+                color: #fff;
+                display: inline-flex;
+            }
         }
         .nav-item{
-            a{color: #fff;}
+            a{
+                color: #fff;
+                &:hover {
+                    color: #ffffff8c;
+                }
+            }
             padding-left: 30px;
             padding-right: 30px;
             margin-top: auto;
@@ -33,10 +41,12 @@
     }
 }
 .main-banner {
-    height: 998px;
+    height: 100vh;
     background-image: url(../img/banner.jpg);
-    background-position: center;
+    background-position: top;
     display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
     .banner-text {
         color: #fff;
         margin: auto;
@@ -56,6 +66,8 @@
             border: 1px solid #fff;
             width: 165px;
             height: 46px;
+            line-height: 46px;
+            padding: 0px;
         }
     }
 }
