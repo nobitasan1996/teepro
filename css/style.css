@@ -1,0 +1,102 @@
+.main-menu {
+  background-color: #ffffff40;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 0px;
+  position: absolute;
+  width: 100%; }
+  .main-menu .container {
+    padding: 0px;
+    width: 1200px; }
+    .main-menu .container .navbar-nav {
+      height: 96px; }
+    .main-menu .container .cart {
+      display: inline-flex; }
+    .main-menu .container .nav-item {
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-top: auto;
+      margin-bottom: auto; }
+      .main-menu .container .nav-item .quantity {
+        margin-top: -5px;
+        background: #04b591;
+        padding: 0px 6px;
+        font-size: 12px;
+        border-radius: 50%;
+        width: 18px;
+        height: 18px; }
+
+.main-banner {
+  height: 998px;
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  display: flex; }
+  .main-banner .banner-text {
+    color: #fff;
+    margin: auto; }
+    .main-banner .banner-text .brand {
+      font-family: 'Yellowtail', cursive;
+      font-size: 200px;
+      line-height: 144px;
+      margin-bottom: 30px; }
+    .main-banner .banner-text .description {
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-bottom: 30px; }
+    .main-banner .banner-text .button {
+      color: #fff;
+      border: 1px solid #fff;
+      width: 165px;
+      height: 46px; }
+
+.section-title {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 0px; }
+  .section-title .first-text {
+    color: #00cc99; }
+  .section-title .second-text {
+    color: #333333; }
+
+.section-value {
+  margin-top: 98px; }
+  .section-value .block-text {
+    width: 390px;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .section-value .block-image {
+    display: flex;
+    width: 125px;
+    padding-left: 15px;
+    padding-right: 15px; }
+    .section-value .block-image img {
+      margin: auto; }
+  .section-value .container {
+    width: 1030px; }
+  .section-value .content {
+    font-size: 14px;
+    line-height: 20px; }
+  .section-value .description {
+    margin-top: 15px;
+    margin-bottom: 50px; }
+  .section-value .title {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 18px; }
+  .section-value .row {
+    margin-bottom: 48px; }
+
+.section-demo {
+  margin-top: 104px; }
+  .section-demo .description {
+    margin-top: 15px;
+    margin-bottom: 50px; }
+  .section-demo .title {
+    margin-top: 8px;
+    font-weight: 600; }
+  .section-demo .row {
+    margin-bottom: 16px; }
+
+/*# sourceMappingURL=style.css.map */

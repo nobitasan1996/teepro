@@ -1,0 +1,105 @@
+.main-menu{
+    background-color: #ffffff40;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+    .container{
+        padding: 0px;
+        width: 1200px;
+        .navbar-nav{
+            height: 96px;
+        }
+        .cart{
+            a{display: inline-flex;}
+        }
+        .nav-item{
+            a{color: #fff;}
+            padding-left: 30px;
+            padding-right: 30px;
+            margin-top: auto;
+            margin-bottom: auto;
+            .quantity{
+                margin-top: -5px;
+                background: #04b591;
+                padding: 0px 6px;
+                font-size: 12px;
+                border-radius: 50%;
+                width: 18px;
+                height: 18px;
+            }
+        }
+    }
+}
+.main-banner {
+    height: 998px;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    display: flex;
+    .banner-text {
+        color: #fff;
+        margin: auto;
+        .brand {
+            font-family: 'Yellowtail', cursive;
+            font-size: 200px;
+            line-height: 144px;
+            margin-bottom: 30px;
+        }
+        .description{
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 30px;
+        }
+        .button{
+            color: #fff;
+            border: 1px solid #fff;
+            width: 165px;
+            height: 46px;
+        }
+    }
+}
+.section-title {
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    .first-text{
+        color: #00cc99;
+    }
+    .second-text{
+        color: #333333;
+    }
+}
+
+.section-value {
+    margin-top: 98px;
+    .block-text{width: 390px; padding-left: 15px; padding-right: 15px;}
+    .block-image{
+        display: flex; width: 125px; padding-left: 15px; padding-right: 15px;
+        img{
+            margin: auto;
+        }
+    }
+    .container{width: 1030px;}
+    .content{font-size: 14px; line-height: 20px;}
+    .description{
+        margin-top: 15px; margin-bottom: 50px;
+    }
+    .title{
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 18px;
+    }
+    .row{margin-bottom: 48px;}
+}
+
+.section-demo{
+    margin-top: 104px;
+    .description{
+        margin-top: 15px; margin-bottom: 50px;
+    }
+    .title{margin-top: 8px; font-weight: 600;}
+    .row{margin-bottom: 16px;}
+}
