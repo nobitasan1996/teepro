@@ -8,6 +8,10 @@
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Yellowtail&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+        <link href="css/owl.carousel.min.css" rel="stylesheet">
+        <link href="css/owl.theme.default.min.css" rel="stylesheet">
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
     </head>
     <body>
         <nav class="main-menu navbar navbar-expand-sm">
@@ -31,18 +35,18 @@
                     <li class="nav-item">
                         <a href="#">Pricing</a>
                     </li>
-                    <li class="nav-item cart">
-                        <a href="#">
-                            <i class="fas fa-shopping-cart"></i>
-                            <span class="quantity">2</span>
-                        </a>
-                    </li> 
                 </ul>
+                <div class="nav-item cart">
+                    <a href="#">
+                        <i class="fa fa-shopping-cart"></i>
+                        <span class="quantity">2</span>
+                    </a>
+                </div> 
             </div>
         </nav>
         <div class="main-banner">
             <div class="text-center banner-text">
-                <h1 class="brand">Tee Pro</h1>
+                <h1 class="brand"><img src="img/tee-pro.png" /></h1>
                 <p class="description">T-shirt Printing Responsive Wordpress Theme integrated Online Design</p>
                 <a href="#" class="btn button">SHOW NOW</a>
             </div>
@@ -54,100 +58,116 @@
                 </h2>
                 <p class="text-center description">Customer will get many benefits when purchasing Tee Pro</p>
                 <div class="row">
-                    <div class="text-right block-text">
-                        <div class="title">
-                            Product Online Design
+                    <div>
+                        <div class="text-right block-text">
+                            <div class="title">
+                                Product Online Design
+                            </div>
+                            <div class="content">
+                                A powerful web to print solution which helps your customers design or customize shirts and any prints before the order.
+                            </div>
                         </div>
-                        <div class="content">
-                            A powerful web to print solution which helps your customers design or customize shirts and any prints before the order.
-                        </div>
-                    </div>
-                    <div class="block-image">
-                        <img src="img/online-design.png" />
-                    </div>
-                    <div class="block-image">
-                        <img src="img/responsive-theme.png" />
-                    </div>
-                    <div class="text-left block-text">
-                        <div class="title">
-                            Responsive Theme
-                        </div>
-                        <div class="content">
-                            With responsive function, all layouts will fit and look great on different size of device as desktop, mobile phone and tablet.
+                        <div class="block-image">
+                            <img src="img/online-design.png" />
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="text-right block-text">
-                        <div class="title">
-                            Slider Revolution
+                    <div>
+                        <div class="block-image">
+                            <img src="img/responsive-theme.png" />
                         </div>
-                        <div class="content">
-                            Slider Revolution allows to show almost any kind of content with highly customization, transitions, effects and custom animations.
-                        </div>
-                    </div>
-                    <div class="block-image">
-                        <img src="img/slide-revolution.png" />
-                    </div>
-                    <div class="block-image">
-                        <img src="img/page-builder.png" />
-                    </div>
-                    <div class="text-left block-text">
-                        <div class="title">
-                            SiteOrigin Page Buider
-                        </div>
-                        <div class="content">
-                            Page Buider by SiteOrigin makes it easy to build responsive grid-based page content that adapts to mobile devices with pixel perfect accuracy. 
+                        <div class="text-left block-text">
+                            <div class="title">
+                                Responsive Theme
+                            </div>
+                            <div class="content">
+                                With responsive function, all layouts will fit and look great on different size of device as desktop, mobile phone and tablet.
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="text-right block-text">
-                        <div class="title">
-                            Unlimited Custom Color
+                    <div>
+                        <div class="text-right block-text">
+                            <div class="title">
+                                Slider Revolution
+                            </div>
+                            <div class="content">
+                                Slider Revolution allows to show almost any kind of content with highly customization, transitions, effects and custom animations.
+                            </div>
                         </div>
-                        <div class="content">
-                            Easy to set up element color to suit with your theme such as: background header, hover over text, and so on.
+                        <div class="block-image">
+                            <img src="img/slide-revolution.png" />
                         </div>
                     </div>
-                    <div class="block-image">
-                        <img src="img/custom color.png" />
-                    </div>
-                    <div class="block-image">
-                        <img src="img/easy-to-custom.png" />
-                    </div>
-                    <div class="text-left block-text">
-                        <div class="title">
-                            Easy to custom
+                    <div>
+                        <div class="block-image">
+                            <img src="img/page-builder.png" />
                         </div>
-                        <div class="content">
-                            Customers always worry about the way to replace images to make their site better. With this theme, it is so fast and easy to change images, products and logo.
+                        <div class="text-left block-text">
+                            <div class="title">
+                                SiteOrigin Page Buider
+                            </div>
+                            <div class="content">
+                                Page Buider by SiteOrigin makes it easy to build responsive grid-based page content that adapts to mobile devices with pixel perfect accuracy. 
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="text-right block-text">
-                        <div class="title">
-                            Color Swatch
+                    <div>
+                        <div class="text-right block-text">
+                            <div class="title">
+                                Unlimited Custom Color
+                            </div>
+                            <div class="content">
+                                Easy to set up element color to suit with your theme such as: background header, hover over text, and so on.
+                            </div>
                         </div>
-                        <div class="content">
-                            Improve shoppers experience in clicking
-                            <br>
-                            colors swatches
+                        <div class="block-image">
+                            <img src="img/custom color.png" />
                         </div>
                     </div>
-                    <div class="block-image">
-                        <img src="img/color-swatch.png" />
-                    </div>
-                    <div class="block-image">
-                        <img src="img/seo-friendly.png" />
-                    </div>
-                    <div class="text-left block-text">
-                        <div class="title">
-                            Seo friendly
+                    <div>
+                        <div class="block-image">
+                            <img src="img/easy-to-custom.png" />
                         </div>
-                        <div class="content">
-                            This theme is built with the best SEO to help you increase sales volume. With Yoast or All in one SEO plugin, we believe your rank increase significantly.
+                        <div class="text-left block-text">
+                            <div class="title">
+                                Easy to custom
+                            </div>
+                            <div class="content">
+                                Customers always worry about the way to replace images to make their site better. With this theme, it is so fast and easy to change images, products and logo.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div>
+                        <div class="text-right block-text">
+                            <div class="title">
+                                Color Swatch
+                            </div>
+                            <div class="content">
+                                Improve shoppers experience in clicking
+                                <br>
+                                colors swatches
+                            </div>
+                        </div>
+                        <div class="block-image">
+                            <img src="img/color-swatch.png" />
+                        </div>
+                    </div>
+                    <div>
+                        <div class="block-image">
+                            <img src="img/seo-friendly.png" />
+                        </div>
+                        <div class="text-left block-text">
+                            <div class="title">
+                                Seo friendly
+                            </div>
+                            <div class="content">
+                                This theme is built with the best SEO to help you increase sales volume. With Yoast or All in one SEO plugin, we believe your rank increase significantly.
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -160,34 +180,346 @@
                 </h2>
                 <p class="text-center description">We have just updated more layouts to adapt customer needs</p>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="block-img">
                         <img src="img/demo-1.jpg" />
                         <p class="title text-center text-uppercase">TEEPRO SHOP</p>
                     </div>
-                    <div class="col-4">
+                    <div class="block-img">
                         <img src="img/demo-2.jpg" />
                         <p class="title text-center text-uppercase">BEAUTIFUL PRINTING</p>
                     </div>
-                    <div class="col-4">
+                    <div class="block-img">
                         <img src="img/demo-3.jpg" />
                         <p class="title text-center text-uppercase">PRINTING CORPORATE</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="block-img">
                         <img src="img/demo-4.jpg" />
                         <p class="title text-center text-uppercase">Minimal style</p>
                     </div>
-                    <div class="col-4">
+                    <div class="block-img">
                         <img src="img/demo-5.jpg" />
                         <p class="title text-center text-uppercase">Creative T-shirt</p>
                     </div>
-                    <div class="col-4">
+                    <div class="block-img">
                         <img src="img/demo-6.jpg" />
                         <p class="title text-center text-uppercase">Exquisite store</p>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="section-pages">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="first-text">20+</span> <span class="second-text">Unique Pages</span>
+                </h2>
+                <p class="text-center description">With 20+ pages in this theme, your customers will be impressed and stay on your site longer</p>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <div class="row">
+                            <div class="block-img">
+                                <img src="img/page-1.jpg" />
+                            </div>
+                            <div class="block-img">
+                                <img src="img/page-2.jpg" />
+                            </div>
+                            <div class="block-img">
+                                <img src="img/page-3.jpg" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="block-img">
+                                <img src="img/page-4.jpg" />
+                            </div>
+                            <div class="block-img">
+                                <img src="img/page-5.jpg" />
+                            </div>
+                            <div class="block-img">
+                                <img src="img/page-6.jpg" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="block-img">
+                                <img src="img/page-7.jpg" />
+                            </div>
+                            <div class="block-img">
+                                <img src="img/page-8.jpg" />
+                            </div>
+                            <div class="block-img">
+                                <img src="img/page-9.jpg" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="block-img">
+                                <img src="img/page-10.jpg" />
+                            </div>
+                            <div class="block-img">
+                                <img src="img/page-11.jpg" />
+                            </div>
+                            <div class="block-img">
+                                <img src="img/page-12.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="block-img">
+                                <img src="img/page-1.jpg" />
+                            </div>
+                            <div class="block-img">
+                                <img src="img/page-2.jpg" />
+                            </div>
+                            <div class="block-img">
+                                <img src="img/page-3.jpg" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="block-img">
+                                <img src="img/page-4.jpg" />
+                            </div>
+                            <div class="block-img">
+                                <img src="img/page-5.jpg" />
+                            </div>
+                            <div class="block-img">
+                                <img src="img/page-6.jpg" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="block-img">
+                                <img src="img/page-7.jpg" />
+                            </div>
+                            <div class="block-img">
+                                <img src="img/page-8.jpg" />
+                            </div>
+                            <div class="block-img">
+                                <img src="img/page-9.jpg" />
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="block-img">
+                                <img src="img/page-10.jpg" />
+                            </div>
+                            <div class="block-img">
+                                <img src="img/page-11.jpg" />
+                            </div>
+                            <div class="block-img">
+                                <img src="img/page-12.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-online-design">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="first-text">Product</span> <span class="second-text">Online Designer</span>
+                </h2>
+                <p class="text-center description">This powerful tool will help customer design anything directly on website</p>
+                <div class="row text-center section-img">
+                    <img src="img/online-design.jpg" />
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="block-img easily-use"></div>
+                        <div class="block-content">
+                            <p class="title">Easy to use</p>
+                            <p class="content">Shopper can easily use this product, it is very friendly with customer, and special it is very simple to use .</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="block-img compatible"></div>
+                        <div class="block-content">
+                            <p class="title">Compatible with WooCommerce</p>
+                            <p class="content">This plugin is an extension of WooCommerce plugin that allow your users to design products easily</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="block-img easy-managent"></div>
+                        <div class="block-content">
+                            <p class="title">Easy managent</p>
+                            <p class="content">Products with online design on Front-end will be add on checkbox to distingue with Product without online design</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="block-img add-text"></div>
+                        <div class="block-content">
+                            <p class="title">Add Text and Curve Text</p>
+                            <p class="content">Shopper can add text with colors, font, size and curve text in their design easily.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="block-img add-art"></div>
+                        <div class="block-content">
+                            <p class="title">Add Art</p>
+                            <p class="content">You can add art, change colors, move, resize, rotate, delete art, flip, center function and so on</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="block-img easily-view"></div>
+                        <div class="block-content">
+                            <p class="title">Easy view detail design</p>
+                            <p class="content">After customer design, admin can view detail design of customer in order management page in backend</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="block-img upload-img"></div>
+                        <div class="block-content">
+                            <p class="title">Uploading images</p>
+                            <p class="content">Shopper can upload images from many sources as Facebook or enter  URL of images</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="block-img drawing"></div>
+                        <div class="block-content">
+                            <p class="title">Free-hand drawing</p>
+                            <p class="content">Especially, you also can use many available brush to draw, you can create  your own signature.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="block-img easily-design"></div>
+                        <div class="block-content">
+                            <p class="title">Customer design again easily</p>
+                            <p class="content">If your design is rejected, please go to your account to design again. You can design until approving.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="block-img qr-code"></div>
+                        <div class="block-content">
+                            <p class="title">Add QR code</p>
+                            <p class="content">You can create QR code and then add to your design. Easily zoom or change position. Add many QR code</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="block-img powerful-layers"></div>
+                        <div class="block-content">
+                            <p class="title">Powerful Layers</p>
+                            <p class="content">Drag and drop to sort layers and change layers of items. Delete one or all layers. Create many scroll layers easily.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="block-img flexible-config"></div>
+                        <div class="block-content">
+                            <p class="title">Flexible config</p>
+                            <p class="content">You can set size upload, preview thumbnail size, thumbnail quality, show customer design in cart, ...</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="block-img help-tool"></div>
+                        <div class="block-content">
+                            <p class="title">Powerful Help Tool</p>
+                            <p class="content">All buttons as next, zoom in, zoom out... are arranged clearly to covienent for customers</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="block-img zoom-function"></div>
+                        <div class="block-content">
+                            <p class="title">Easy preview with zoom function</p>
+                            <p class="content">Preview all designed items and see in detail with zoom easily</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="block-img various-fonts"></div>
+                        <div class="block-content">
+                            <p class="title">Various fonts</p>
+                            <p class="content">There are many fonts are inluded in this product. Admin also can add more fonts if they want</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="block-img fully-responsive"></div>
+                        <div class="block-content">
+                            <p class="title">Fully Responsive</p>
+                            <p class="content">You can design on any device as desktop, tablet or mobile</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="block-img accept-reject"></div>
+                        <div class="block-content">
+                            <p class="title">Accept or reject</p>
+                            <p class="content">Admin will send an email notification to customer to inform your design sistuation.</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="block-img helpdesk"></div>
+                        <div class="block-content">
+                            <p class="title">Power helpdesk</p>
+                            <p class="content">The customer can easily design with power helpdesk.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-service">
+            <div class="container">
+                <div class="row">
+                    <div class="section-img">
+                        <img src="img/professional-service.png" />
+                    </div>
+                    <div class="block-content">
+                        <h2 class="section-title">
+                            <span class="first-text">Professional</span> <span class="second-text">Service</span>
+                        </h2>
+                        <p class="description">Install theme as our demo with sample Data within 48 hours</p>
+                        <a href="#" class="button">PAY LESS, GET MORE <i class="fa fa-play"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-feedback">
+            <div class="container">
+                <h2 class="section-title">
+                    <span class="first-text">Our</span> <span class="second-text">testimonials</span>
+                </h2>
+                <p class="description">Don't just hear from our side, hear from our beloved customers as well</p>
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <p class="text-center customer-feedback">T-Shirt Theme is awesome! It looks luxury and friendly-user. I am very impressed with how their team works with us. They also provide you with phone & email support. It helps our business become more convenient! Thank a lot!</p>
+                        <p class="text-center customer-name"><b>John David</b> - CEO</p>
+                    </div>
+                    <div class="item">
+                        <p class="text-center customer-feedback">T-Shirt Theme is awesome! It looks luxury and friendly-user. I am very impressed with how their team works with us. They also provide you with phone & email support. It helps our business become more convenient! Thank a lot!</p>
+                        <p class="text-center customer-name"><b>John David</b> - CEO</p>
+                    </div>
+                    <div class="item">
+                        <p class="text-center customer-feedback">T-Shirt Theme is awesome! It looks luxury and friendly-user. I am very impressed with how their team works with us. They also provide you with phone & email support. It helps our business become more convenient! Thank a lot!</p>
+                        <p class="text-center customer-name"><b>John David</b> - CEO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-purchase">
+            <div class="container">
+                <h2 class="footer-title"><img src="img/love-tee-pro.png" /></h2>
+                <a href="#" class="btn button">Purchase</a>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <p class="copy-right">T-Shirt Theme - Copyright © 2016 <span>Netbase Team</span>. All Rights Reserved.</p>
+            </div>
+        </footer>
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                autoplay:true,
+                autoplayTimeout:5000,
+                autoplayHoverPause:true,
+                margin:0,
+                dots: true,
+                nav: false,
+                items:1
+            })
+        </script>
     </body>
 </html>
