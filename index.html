@@ -4,17 +4,18 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Yellowtail&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
         <link href="css/owl.carousel.min.css" rel="stylesheet">
         <link href="css/owl.theme.default.min.css" rel="stylesheet">
         <script src="js/jquery-3.4.1.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/main.min.js"></script>
     </head>
     <body>
-        <nav class="main-menu navbar navbar-expand-sm">
+        <nav class="main-menu navbar navbar-expand-sm display-desktop">
             <div class="container">
                 <ul class="navbar-nav">
                     <li class="nav-item logo">
@@ -44,6 +45,39 @@
                 </div> 
             </div>
         </nav>
+        <nav class="main-menu navbar navbar-dark display-mobile">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#menu-mobile">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="nav-item logo">
+                <a href="#"><img src="img/logo.png" /></a>
+            </div>
+            <div class="nav-item cart">
+                <a href="#">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="quantity">2</span>
+                </a>
+            </div> 
+            <div class="collapse navbar-collapse" id="menu-mobile">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Demo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Online design</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Pricing</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <div class="main-banner">
             <div class="text-center banner-text">
                 <h1 class="brand"><img src="img/tee-pro.png" /></h1>
@@ -58,7 +92,7 @@
                 </h2>
                 <p class="text-center description">Customer will get many benefits when purchasing Tee Pro</p>
                 <div class="row">
-                    <div>
+                    <div class="block-item">
                         <div class="text-right block-text">
                             <div class="title">
                                 Product Online Design
@@ -71,7 +105,7 @@
                             <img src="img/online-design.png" />
                         </div>
                     </div>
-                    <div>
+                    <div class="block-item">
                         <div class="block-image">
                             <img src="img/responsive-theme.png" />
                         </div>
@@ -86,7 +120,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div>
+                    <div class="block-item">
                         <div class="text-right block-text">
                             <div class="title">
                                 Slider Revolution
@@ -99,7 +133,7 @@
                             <img src="img/slide-revolution.png" />
                         </div>
                     </div>
-                    <div>
+                    <div class="block-item">
                         <div class="block-image">
                             <img src="img/page-builder.png" />
                         </div>
@@ -114,7 +148,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div>
+                    <div class="block-item">
                         <div class="text-right block-text">
                             <div class="title">
                                 Unlimited Custom Color
@@ -127,7 +161,7 @@
                             <img src="img/custom color.png" />
                         </div>
                     </div>
-                    <div>
+                    <div class="block-item">
                         <div class="block-image">
                             <img src="img/easy-to-custom.png" />
                         </div>
@@ -142,22 +176,20 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div>
+                    <div class="block-item">
                         <div class="text-right block-text">
                             <div class="title">
                                 Color Swatch
                             </div>
-                            <div class="content">
-                                Improve shoppers experience in clicking
-                                <br>
-                                colors swatches
+                            <div class="content special">
+                                Improve shoppers experience in clicking colors swatches
                             </div>
                         </div>
                         <div class="block-image">
                             <img src="img/color-swatch.png" />
                         </div>
                     </div>
-                    <div>
+                    <div class="block-item">
                         <div class="block-image">
                             <img src="img/seo-friendly.png" />
                         </div>
@@ -192,8 +224,6 @@
                         <img src="img/demo-3.jpg" />
                         <p class="title text-center text-uppercase">PRINTING CORPORATE</p>
                     </div>
-                </div>
-                <div class="row">
                     <div class="block-img">
                         <img src="img/demo-4.jpg" />
                         <p class="title text-center text-uppercase">Minimal style</p>
@@ -227,8 +257,6 @@
                             <div class="block-img">
                                 <img src="img/page-3.jpg" />
                             </div>
-                        </div>
-                        <div class="row">
                             <div class="block-img">
                                 <img src="img/page-4.jpg" />
                             </div>
@@ -238,8 +266,6 @@
                             <div class="block-img">
                                 <img src="img/page-6.jpg" />
                             </div>
-                        </div>
-                        <div class="row">
                             <div class="block-img">
                                 <img src="img/page-7.jpg" />
                             </div>
@@ -249,8 +275,6 @@
                             <div class="block-img">
                                 <img src="img/page-9.jpg" />
                             </div>
-                        </div>
-                        <div class="row">
                             <div class="block-img">
                                 <img src="img/page-10.jpg" />
                             </div>
@@ -273,8 +297,6 @@
                             <div class="block-img">
                                 <img src="img/page-3.jpg" />
                             </div>
-                        </div>
-                        <div class="row">
                             <div class="block-img">
                                 <img src="img/page-4.jpg" />
                             </div>
@@ -284,8 +306,6 @@
                             <div class="block-img">
                                 <img src="img/page-6.jpg" />
                             </div>
-                        </div>
-                        <div class="row">
                             <div class="block-img">
                                 <img src="img/page-7.jpg" />
                             </div>
@@ -295,8 +315,6 @@
                             <div class="block-img">
                                 <img src="img/page-9.jpg" />
                             </div>
-                        </div>
-                        <div class="row">
                             <div class="block-img">
                                 <img src="img/page-10.jpg" />
                             </div>
@@ -317,140 +335,130 @@
                     <span class="first-text">Product</span> <span class="second-text">Online Designer</span>
                 </h2>
                 <p class="text-center description">This powerful tool will help customer design anything directly on website</p>
-                <div class="row text-center section-img">
+                <div class="text-center section-img">
                     <img src="img/online-design.jpg" />
                 </div>
                 <div class="row">
-                    <div class="col">
+                    <div class="block-item">
                         <div class="block-img easily-use"></div>
                         <div class="block-content">
                             <p class="title">Easy to use</p>
                             <p class="content">Shopper can easily use this product, it is very friendly with customer, and special it is very simple to use .</p>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="block-item">
                         <div class="block-img compatible"></div>
                         <div class="block-content">
                             <p class="title">Compatible with WooCommerce</p>
                             <p class="content">This plugin is an extension of WooCommerce plugin that allow your users to design products easily</p>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="block-item">
                         <div class="block-img easy-managent"></div>
                         <div class="block-content">
                             <p class="title">Easy managent</p>
                             <p class="content">Products with online design on Front-end will be add on checkbox to distingue with Product without online design</p>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col">
+                    <div class="block-item">
                         <div class="block-img add-text"></div>
                         <div class="block-content">
                             <p class="title">Add Text and Curve Text</p>
                             <p class="content">Shopper can add text with colors, font, size and curve text in their design easily.</p>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="block-item">
                         <div class="block-img add-art"></div>
                         <div class="block-content">
                             <p class="title">Add Art</p>
                             <p class="content">You can add art, change colors, move, resize, rotate, delete art, flip, center function and so on</p>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="block-item">
                         <div class="block-img easily-view"></div>
                         <div class="block-content">
                             <p class="title">Easy view detail design</p>
                             <p class="content">After customer design, admin can view detail design of customer in order management page in backend</p>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col">
+                    <div class="block-item">
                         <div class="block-img upload-img"></div>
                         <div class="block-content">
                             <p class="title">Uploading images</p>
                             <p class="content">Shopper can upload images from many sources as Facebook or enter  URL of images</p>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="block-item">
                         <div class="block-img drawing"></div>
                         <div class="block-content">
                             <p class="title">Free-hand drawing</p>
                             <p class="content">Especially, you also can use many available brush to draw, you can create  your own signature.</p>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="block-item">
                         <div class="block-img easily-design"></div>
                         <div class="block-content">
                             <p class="title">Customer design again easily</p>
                             <p class="content">If your design is rejected, please go to your account to design again. You can design until approving.</p>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col">
+                    <div class="block-item">
                         <div class="block-img qr-code"></div>
                         <div class="block-content">
                             <p class="title">Add QR code</p>
                             <p class="content">You can create QR code and then add to your design. Easily zoom or change position. Add many QR code</p>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="block-item">
                         <div class="block-img powerful-layers"></div>
                         <div class="block-content">
                             <p class="title">Powerful Layers</p>
                             <p class="content">Drag and drop to sort layers and change layers of items. Delete one or all layers. Create many scroll layers easily.</p>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="block-item">
                         <div class="block-img flexible-config"></div>
                         <div class="block-content">
                             <p class="title">Flexible config</p>
                             <p class="content">You can set size upload, preview thumbnail size, thumbnail quality, show customer design in cart, ...</p>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col">
+                    <div class="block-item">
                         <div class="block-img help-tool"></div>
                         <div class="block-content">
                             <p class="title">Powerful Help Tool</p>
                             <p class="content">All buttons as next, zoom in, zoom out... are arranged clearly to covienent for customers</p>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="block-item">
                         <div class="block-img zoom-function"></div>
                         <div class="block-content">
                             <p class="title">Easy preview with zoom function</p>
                             <p class="content">Preview all designed items and see in detail with zoom easily</p>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="block-item">
                         <div class="block-img various-fonts"></div>
                         <div class="block-content">
                             <p class="title">Various fonts</p>
                             <p class="content">There are many fonts are inluded in this product. Admin also can add more fonts if they want</p>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col">
+                    <div class="block-item">
                         <div class="block-img fully-responsive"></div>
                         <div class="block-content">
                             <p class="title">Fully Responsive</p>
                             <p class="content">You can design on any device as desktop, tablet or mobile</p>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="block-item">
                         <div class="block-img accept-reject"></div>
                         <div class="block-content">
                             <p class="title">Accept or reject</p>
                             <p class="content">Admin will send an email notification to customer to inform your design sistuation.</p>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="block-item">
                         <div class="block-img helpdesk"></div>
                         <div class="block-content">
                             <p class="title">Power helpdesk</p>
@@ -463,15 +471,15 @@
         <div class="section-service">
             <div class="container">
                 <div class="row">
-                    <div class="section-img">
-                        <img src="img/professional-service.png" />
-                    </div>
                     <div class="block-content">
                         <h2 class="section-title">
                             <span class="first-text">Professional</span> <span class="second-text">Service</span>
                         </h2>
                         <p class="description">Install theme as our demo with sample Data within 48 hours</p>
                         <a href="#" class="button">PAY LESS, GET MORE <i class="fa fa-play"></i></a>
+                    </div>
+                    <div class="section-img">
+                        <img src="img/professional-service.png" />
                     </div>
                 </div>
             </div>
@@ -509,17 +517,5 @@
                 <p class="copy-right">T-Shirt Theme - Copyright © 2016 <span>Netbase Team</span>. All Rights Reserved.</p>
             </div>
         </footer>
-        <script>
-            $('.owl-carousel').owlCarousel({
-                loop: true,
-                autoplay:true,
-                autoplayTimeout:5000,
-                autoplayHoverPause:true,
-                margin:0,
-                dots: true,
-                nav: false,
-                items:1
-            })
-        </script>
     </body>
 </html>
