@@ -159,6 +159,8 @@ img {
   background-color: #e6e7e8;
   padding-top: 110px;
   padding-bottom: 110px; }
+  .section-pages.display-mobile {
+    display: none; }
   .section-pages .block-img {
     float: left;
     margin-bottom: 30px; }
@@ -435,6 +437,8 @@ footer {
       border: 0px;
       margin-top: 17px;
       margin-bottom: 17px; }
+      .main-menu.display-mobile .navbar-toggler:focus {
+        outline: none; }
     .main-menu.display-mobile .navbar-nav {
       margin-bottom: 10px; }
 
@@ -517,6 +521,18 @@ footer {
     max-width: calc(100% - 30px);
     margin-left: auto;
     margin-right: auto; }
+
+  .section-pages.display-desktop {
+    display: none; }
+  .section-pages.display-mobile {
+    display: block; }
+  .section-pages .owl-item {
+    padding: 0px; }
+  .section-pages .owl-theme .owl-dots .owl-dot span {
+    border: 0px;
+    width: 5px;
+    height: 5px;
+    margin: 3px; }
 
   .section-online-design .block-img {
     margin-right: 15px; }

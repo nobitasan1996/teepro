@@ -200,6 +200,9 @@ img{
     background-color: #e6e7e8;
     padding-top: 110px;
     padding-bottom: 110px;
+    &.display-mobile{
+        display: none;
+    }
     .block-img {
         @extend %col;
         float: left;
@@ -590,6 +593,9 @@ footer{
                 border: 0px;
                 margin-top: 17px;
                 margin-bottom: 17px;
+                &:focus{
+                    outline: none;
+                }
             }
             .navbar-nav{
                 margin-bottom: 10px;
@@ -728,6 +734,29 @@ footer{
             max-width: calc(100% - 30px);
             margin-left: auto;
             margin-right: auto;
+        }
+    }
+    .section-pages{
+        &.display-desktop{
+            display: none;
+        }
+        &.display-mobile{
+            display: block;
+        }
+        .owl-item{
+            padding: 0px;
+        }
+        .owl-theme{
+            .owl-dots {
+                .owl-dot{
+                    span{
+                        border: 0px;
+                        width: 5px;
+                        height: 5px;
+                        margin: 3px;
+                    }
+                }
+            }
         }
     }
     .section-online-design{
