@@ -439,16 +439,16 @@ footer {
       margin-bottom: 10px; }
 
   .section-value .block-item .block-image {
-    width: 90px;
-    padding-left: 10px;
-    padding-right: 10px; }
+    width: 85px;
+    padding-left: 15px;
+    padding-right: 0px; }
     .section-value .block-item .block-image img {
       width: 70px;
       height: 70px; }
   .section-value .block-item .block-text {
-    width: calc(100% - 100px);
-    padding-left: 10px;
-    padding-right: 10px; }
+    width: calc(100% - 85px);
+    padding-left: 15px;
+    padding-right: 15px; }
   .section-value .container {
     max-width: 960px; }
   .section-value .title {
