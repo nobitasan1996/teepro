@@ -112,8 +112,33 @@ img {
       padding-left: 15px;
       padding-right: 15px;
       float: left; }
-      .section-value .block-item .block-image img {
-        margin: auto; }
+      .section-value .block-item .block-image span {
+        width: 100px;
+        height: 100px; }
+        .section-value .block-item .block-image span.online-design {
+          background-image: url("../img/icon.png");
+          background-position: 0px 0px; }
+        .section-value .block-item .block-image span.slide-revolution {
+          background-image: url("../img/icon.png");
+          background-position: 0px -100px; }
+        .section-value .block-item .block-image span.custom-color {
+          background-image: url("../img/icon.png");
+          background-position: 0px -200px; }
+        .section-value .block-item .block-image span.color-swatch {
+          background-image: url("../img/icon.png");
+          background-position: 0px -300px; }
+        .section-value .block-item .block-image span.responsive-theme {
+          background-image: url("../img/icon.png");
+          background-position: -100px 0px; }
+        .section-value .block-item .block-image span.page-builder {
+          background-image: url("../img/icon.png");
+          background-position: -100px -100px; }
+        .section-value .block-item .block-image span.easy-to-custom {
+          background-image: url("../img/icon.png");
+          background-position: -100px -200px; }
+        .section-value .block-item .block-image span.seo-friendly {
+          background-image: url("../img/icon.png");
+          background-position: -100px -300px; }
   .section-value .container {
     max-width: 1030px; }
   .section-value .content {
@@ -445,11 +470,35 @@ footer {
 
   .section-value .block-item .block-image {
     width: 85px;
-    padding-left: 15px;
-    padding-right: 0px; }
-    .section-value .block-item .block-image img {
+    padding-left: 7.5px;
+    padding-right: 7.5px; }
+    .section-value .block-item .block-image span {
       width: 70px;
       height: 70px; }
+      .section-value .block-item .block-image span.online-design {
+        background-image: url("../img/icon.png");
+        background-position: 0px -400px; }
+      .section-value .block-item .block-image span.slide-revolution {
+        background-image: url("../img/icon.png");
+        background-position: 0px -500px; }
+      .section-value .block-item .block-image span.custom-color {
+        background-image: url("../img/icon.png");
+        background-position: 0px -600px; }
+      .section-value .block-item .block-image span.color-swatch {
+        background-image: url("../img/icon.png");
+        background-position: 0px -700px; }
+      .section-value .block-item .block-image span.responsive-theme {
+        background-image: url("../img/icon.png");
+        background-position: -100px -400px; }
+      .section-value .block-item .block-image span.page-builder {
+        background-image: url("../img/icon.png");
+        background-position: -100px -500px; }
+      .section-value .block-item .block-image span.easy-to-custom {
+        background-image: url("../img/icon.png");
+        background-position: -100px -600px; }
+      .section-value .block-item .block-image span.seo-friendly {
+        background-image: url("../img/icon.png");
+        background-position: -100px -700px; }
   .section-value .block-item .block-text {
     width: calc(100% - 85px);
     padding-left: 15px;
