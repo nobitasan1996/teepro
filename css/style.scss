@@ -141,8 +141,41 @@ img{
             padding-left: 15px; 
             padding-right: 15px;
             float: left;
-            img{
-                margin: auto;
+            span{
+                width: 100px;
+                height: 100px;
+                &.online-design{
+                    background-image: url('../img/icon.png');
+                    background-position: 0px 0px;
+                }
+                &.slide-revolution{
+                    background-image: url('../img/icon.png');
+                    background-position: 0px -100px;
+                }
+                &.custom-color{
+                    background-image: url('../img/icon.png');
+                    background-position: 0px -200px;
+                }
+                &.color-swatch{
+                    background-image: url('../img/icon.png');
+                    background-position: 0px -300px;
+                }
+                &.responsive-theme{
+                    background-image: url('../img/icon.png');
+                    background-position: -100px 0px;
+                }
+                &.page-builder{
+                    background-image: url('../img/icon.png');
+                    background-position: -100px -100px;
+                }
+                &.easy-to-custom{
+                    background-image: url('../img/icon.png');
+                    background-position: -100px -200px;
+                }
+                &.seo-friendly{
+                    background-image: url('../img/icon.png');
+                    background-position: -100px -300px;
+                }
             }
         }
     }
@@ -607,11 +640,43 @@ footer{
         .block-item{
             .block-image{
                 width: 85px;
-                padding-left: 15px;
-                padding-right: 0px;
-                img{
+                padding-left: 7.5px;
+                padding-right: 7.5px;
+                span{
                     width: 70px;
                     height: 70px;
+                    &.online-design{
+                        background-image: url('../img/icon.png');
+                        background-position: 0px -400px;
+                    }
+                    &.slide-revolution{
+                        background-image: url('../img/icon.png');
+                        background-position: 0px -500px;
+                    }
+                    &.custom-color{
+                        background-image: url('../img/icon.png');
+                        background-position: 0px -600px;
+                    }
+                    &.color-swatch{
+                        background-image: url('../img/icon.png');
+                        background-position: 0px -700px;
+                    }
+                    &.responsive-theme{
+                        background-image: url('../img/icon.png');
+                        background-position: -100px -400px;
+                    }
+                    &.page-builder{
+                        background-image: url('../img/icon.png');
+                        background-position: -100px -500px;
+                    }
+                    &.easy-to-custom{
+                        background-image: url('../img/icon.png');
+                        background-position: -100px -600px;
+                    }
+                    &.seo-friendly{
+                        background-image: url('../img/icon.png');
+                        background-position: -100px -700px;
+                    }
                 }
             }
             .block-text{
