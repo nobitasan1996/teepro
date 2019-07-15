@@ -575,6 +575,7 @@ footer{
         &.display-mobile{
             display: flex;
             min-height: 72px;
+            background-color: #000000c9;
             .cart{
                 padding-right: 15px;
                 .fa-shopping-cart{
@@ -633,6 +634,27 @@ footer{
         .container{
             max-width: 810px;
         }
+        &.display-desktop{
+            display: none;
+        }
+        &.display-mobile{
+            display: block;
+        }
+        .owl-item{
+            padding: 0px;
+        }
+        .owl-theme{
+            .owl-dots {
+                .owl-dot{
+                    span{
+                        border: 0px;
+                        width: 5px;
+                        height: 5px;
+                        margin: 3px;
+                    }
+                }
+            }
+        }
     }
     .section-service{
         text-align: center;
@@ -657,7 +679,7 @@ footer{
 }
 
 @media (min-width: 639px) and (max-width: 976px){
-    .section-demo, .section-pages{
+    .section-demo{
         .block-img {
             max-width: calc((100% - 30px)/2);
             &:nth-child(2n+1){
@@ -734,29 +756,6 @@ footer{
             max-width: calc(100% - 30px);
             margin-left: auto;
             margin-right: auto;
-        }
-    }
-    .section-pages{
-        &.display-desktop{
-            display: none;
-        }
-        &.display-mobile{
-            display: block;
-        }
-        .owl-item{
-            padding: 0px;
-        }
-        .owl-theme{
-            .owl-dots {
-                .owl-dot{
-                    span{
-                        border: 0px;
-                        width: 5px;
-                        height: 5px;
-                        margin: 3px;
-                    }
-                }
-            }
         }
     }
     .section-online-design{

@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.owl-carousel').owlCarousel({
+    $('.section-pages.display-desktop .owl-carousel, .section-feedback .owl-carousel').owlCarousel({
         loop: true,
         autoplay:true,
         autoplayTimeout:5000,
@@ -8,11 +8,31 @@ $(document).ready(function(){
         dots: true,
         nav: false,
         items:1
-    })
+    });
+        
+    $('.section-pages.display-mobile .owl-carousel').owlCarousel({
+        loop: true,
+        autoplay:true,
+        autoplayTimeout:5000,
+        autoplayHoverPause:true,
+        margin:0,
+        dots: true,
+        nav: false,
+        responsive:{
+            0: {
+                items:1,
+            },
+            639: {
+                items:2,
+            },
+            976: {
+                items:3,
+            }
+        }
+    });
     
     function showMenu(){
         var top = $(window).scrollTop();
-        console.log(top);
         if(top >= $('.main-menu').height()){
             $('.main-menu').addClass('scroll');
             setTimeout(function (){
